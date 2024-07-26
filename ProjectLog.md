@@ -6,3 +6,12 @@
 * Found dataset
 * We can start analyzing and looking at the data
 * Decided to use Flutterflow
+
+## 7/26/2024
+* Today
+    - We were able to analyze and graph the 20_sample_data
+    - Got some results and accuracies from it
+* Next Class
+    - Do the same thing with the other dataset
+    - Learn how to save the model itself so that it can be used as an appllication
+* Think about Flutterflow
