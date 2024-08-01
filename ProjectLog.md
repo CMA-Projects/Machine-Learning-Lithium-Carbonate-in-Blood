@@ -15,3 +15,9 @@
     - Do the same thing with the other dataset
     - Learn how to save the model itself so that it can be used as an appllication
 * Think about Flutterflow
+
+## August 1, 2024
+* Updated the notebook so that it is more organized and easier to navigate
+* Added deep learning model and model eevaluation
+* Data analysis and model training is done - just need to learn how to save the model architecture that was made and the use it
+* Next class we can learn how to save the model and start flutterflow
