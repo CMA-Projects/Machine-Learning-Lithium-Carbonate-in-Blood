@@ -25,3 +25,8 @@
 ## August 9, 2024
 * Reviewed the models and the results
 * Added a way to save the models
+* Model training and creation is complete, we only need to:
+    1. Retreive material for Research Paper
+        * A few simple metrics for models are already in the notebook
+        * If more are needed, we can do that
+    2. Set up Web App/Flutterflow
