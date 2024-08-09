@@ -21,3 +21,7 @@
 * Added deep learning model and model eevaluation
 * Data analysis and model training is done - just need to learn how to save the model architecture that was made and the use it
 * Next class we can learn how to save the model and start flutterflow
+
+## August 9, 2024
+* Reviewed the models and the results
+* Added a way to save the models
