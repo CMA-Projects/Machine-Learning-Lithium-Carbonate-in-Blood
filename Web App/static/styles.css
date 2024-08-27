@@ -1,0 +1,12 @@
+.container {
+    border: 5px solid #ff0000dd; /* Adds a 2px solid black border */
+    padding: 20px;          /* Adds some space inside the border */
+    margin: 20px;           /* Adds some space outside the border */
+    border-radius: 10px;    /* Optional: Rounds the corners of the border */
+}
+
+button{
+    background-color: aqua;
+    cursor: pointer;
+    padding: 10px 20px;
+}
