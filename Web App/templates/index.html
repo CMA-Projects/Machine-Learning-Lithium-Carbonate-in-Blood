@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Flask Web App</title>
+    <title>ML Model Web App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> 
-    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Basic Web App Example</h1>
-        <h3>Basic Web App Example</h3>
-        <h2>Basic Web App Example</h2>
-        <p id="paragraph">And I in going, madam, weep o'er my father's death
-            anew: but I must attend his majesty's command, to
-            whom I am now in ward, evermore in subjection.</p>
+        <h1>Predict with Machine Learning Model</h1>
+        <form id="inputForm">
+            <label for="input1">Temperature</label>
+            <input type="text" id="input1" name="temperature" required>
+            <br>
+
+            <label for="input2">Diastolic</label>
+            <input type="text" id="input2" name="diastolic" required>
+            <br>
+
+            <label for="input3">BOS</label>
+            <input type="text" id="input3" name="bos" required>
+            <br>
+
+            <label for="input4">Time Last</label>
+            <input type="text" id="input4" name="time last" required>
+            <br>
+
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result"></div>
     </div>
 
-    <div class="container">
-        <button onclick="changeText()">Click Me</button>
-    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>

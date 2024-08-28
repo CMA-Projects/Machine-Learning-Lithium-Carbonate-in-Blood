@@ -1,12 +1,75 @@
-.container {
-    border: 5px solid #ff0000dd; /* Adds a 2px solid black border */
-    padding: 20px;          /* Adds some space inside the border */
-    margin: 20px;           /* Adds some space outside the border */
-    border-radius: 10px;    /* Optional: Rounds the corners of the border */
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-button{
-    background-color: aqua;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff; /* White background for the content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+h1 {
+    color: #2a9d8f; /* Sports-themed teal color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #e76f51; /* Sports-themed orange color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
     cursor: pointer;
-    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d35d42; /* Darker orange on hover */
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9c46a; /* Light yellow for results */
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.error {
+    color: #e76f51; /* Red color for errors */
 }
